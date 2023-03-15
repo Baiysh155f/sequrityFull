@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 12345
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+
+  security:
+    oauth2:
+      resource-server:
+        jwt:
+          jwk-set-uri: "lksdlv"
